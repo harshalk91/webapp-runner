@@ -5,4 +5,4 @@ java:
 script: "mvn install"		
 branches:		
  only:		
- - master
+ - harshalk91-patch-1
