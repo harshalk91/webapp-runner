@@ -2,7 +2,7 @@ language: java
 java:		
  - 1.7		
 script: "mvn install"
-install: install_dep.sh
+install: sh install_dep.sh
 branches:		
  only:		
  - master
