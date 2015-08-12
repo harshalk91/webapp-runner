@@ -3,7 +3,7 @@ sudo: true
 language: java		
 java:		
  - 1.7		
-script: "mvn install"
+script: "mvn install | tee -a /home/travis/mavin_logs.log"
 install: sh install_dep.sh
 branches:		
  only:		
