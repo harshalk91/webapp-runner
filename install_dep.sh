@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Updating repo."
-apt-get update
-apt-get install python-setuptools
+sudo apt-get update
+sudo apt-get install python-setuptools
