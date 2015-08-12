@@ -1,4 +1,5 @@
 before_install: chmod 777 assign_perm.sh
+sudo: true
 language: java		
 java:		
  - 1.7		
