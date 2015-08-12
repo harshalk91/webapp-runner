@@ -1,4 +1,4 @@
-before_install: chmod 777 assign_perms.sh
+before_install: chmod 777 assign_perm.sh
 language: java		
 java:		
  - 1.7		
