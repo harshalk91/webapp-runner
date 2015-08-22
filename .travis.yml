@@ -4,7 +4,7 @@ language: java
 java:		
  - 1.7		
 script: "mvn install | tee -a /home/travis/mavin_logs.log"
-install: sh install_dep.sh
+install: echo "Installing Dependencies";sh install_dep.sh
 branches:		
  only:		
  - master
