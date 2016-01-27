@@ -5,4 +5,5 @@ then
   echo "war location is $war_location"
 else
   echo "Maven log file not found"
+echo "Changedd!!"
 fi
